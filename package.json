@@ -1,0 +1,15 @@
+{
+  "name": "chatvisserver",
+  "version": "1.0.0",
+  "description": "ServerFileUpload",
+  "main": "serverFile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.1"
+  }
+}
