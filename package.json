@@ -2,14 +2,19 @@
   "name": "chatvisserver",
   "version": "1.0.0",
   "description": "ServerFileUpload",
-  "main": "serverFile.js",
+  "main": "serverBD.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon ."
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "express-fileupload": "^1.4.1"
+    "express-fileupload": "^1.4.1",
+    "mongoose": "^7.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
