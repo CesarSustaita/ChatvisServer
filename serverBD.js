@@ -24,8 +24,3 @@ app.listen(8000, function check(error) {
     console.log("Se conecto bien el puerto 8000");
   }
 });
-
-// server.post("/login", (req, res) => {
-//   console.log("se conecto el postman");
-// });
-// server.use(routes);
