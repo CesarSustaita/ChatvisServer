@@ -26,3 +26,4 @@ npm run dev
 ```
 para correr el codigo
 ### Listo 
+Checar cualquier cosa y listo
