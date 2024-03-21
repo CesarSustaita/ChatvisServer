@@ -3,7 +3,8 @@ const express = require("express");
 const cors = require("cors");
 const ConectarDB = require("./config/db");
 const corsOptions = {
-  origin: "http://localhost:5173",
+  // origin: "http://localhost:5173",
+  origin: "http://localhost:5000",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
   optionsSuccessStatus: 204,
